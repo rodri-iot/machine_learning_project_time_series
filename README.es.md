@@ -81,6 +81,26 @@ Puedes colocar tus conjuntos de datos brutos en el directorio data/raw, conjunto
 
 Para procesar datos, puedes modificar el script app.py para incluir tus pasos de procesamiento de datos, utilizando pandas para la manipulación y análisis de datos.
 
+## Descripción
+### Bienvenidos
+El Grupo Acea es uno de los principales operadores multiservicios italianos. Cotizada en la Bolsa de Valores italiana desde 1999, la empresa gestiona y desarrolla redes de agua y electricidad y servicios medioambientales. Acea es el principal operador italiano en el sector de los servicios hídricos, abasteciendo a 9 millones de habitantes en Lacio, Toscana, Umbría, Molise y Campania.
+
+En este concurso nos centraremos únicamente en el sector del agua para ayudar al Grupo Acea a preservar los valiosos cuerpos de agua. Como es fácil de imaginar, una empresa de suministro de agua lucha con la necesidad de pronosticar el nivel de agua en un cuerpo de agua (manantial, lago, río o acuífero) para gestionar el consumo diario. Durante el otoño y el invierno, los cuerpos de agua se rellenan, pero durante la primavera y el verano comienzan a vaciarse. Para ayudar a preservar la salud de estos cuerpos de agua, es importante predecir la disponibilidad de agua más eficiente, en términos de nivel y caudal de agua para cada día del año.
+
+### Datos
+La realidad es que cada cuerpo de agua tiene características tan únicas que sus atributos no están vinculados entre sí. Esta competencia analítica utiliza conjuntos de datos que son completamente independientes entre sí. Sin embargo, es fundamental comprender la disponibilidad total para preservar el agua en todo el país.
+
+Cada conjunto de datos representa un tipo diferente de cuerpo de agua. Como cada cuerpo de agua es diferente del otro, las características relacionadas también son diferentes. Entonces, si, por ejemplo, consideramos un manantial de agua, notamos que sus características son diferentes a las de un lago. Estas variaciones son esperables en función del comportamiento y las características únicas de cada cuerpo de agua. El Grupo Acea trabaja con cuatro tipos diferentes de cuerpos de agua: manantiales de agua, lagos, ríos y acuíferos.
+
+### Desafío
+¿Puedes construir una historia para predecir la cantidad de agua en cada cuerpo de agua único? El desafío es determinar cómo las características influyen en la disponibilidad de agua de cada cuerpo de agua presentado. Para ser más directos, obteniendo una mejor comprensión de los volúmenes, podrán garantizar la disponibilidad de agua para cada intervalo de tiempo del año.
+
+El intervalo de tiempo se define como día/mes según las medidas disponibles para cada cuerpo de agua. Los modelos deben capturar los volúmenes de cada cuerpo de agua (por ejemplo, para un modelo que funciona en un intervalo mensual, se espera un pronóstico para el mes).
+
+El resultado deseado es un cuaderno que pueda generar cuatro modelos matemáticos, uno para cada categoría de cuerpo de agua (acuíferos, manantiales de agua, río, lago) que puedan aplicarse a cada cuerpo de agua individual.
+
+![img](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F6195295%2Fcca952eecc1e49c54317daf97ca2cca7%2FAcea-Input.png?generation=1606932492951317&alt=media)
+
 ## Contribuyentes
 
 Esta plantilla fue construida como parte del [Data Science and Machine Learning Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning) de 4Geeks Academy por [Alejandro Sanchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Descubre más sobre [los programas BootCamp de 4Geeks Academy](https://4geeksacademy.com/us/programs) aquí.
